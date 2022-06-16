@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  width: 250px;
+  height: auto;
+  display: inline-flex;
+  padding-bottom: 50px;
+  margin: 25px;
+  box-shadow: 3px 5px 10px 3px #66ADFF;
+  -webkit-box-shadow: 3px 5px 10px 3px #66ADFF;
+  justify-content: center;
+}
+
+.name {
+  font-weight: bold;
+  margin-top: 15px;
+  
+}
+
+.username {
+  font-style: italic;
+}
+
+.quote {
+  margin-top: 15px;
+}
+
+.more {
+  text-align: center;
+  margin-left: -10px;
+  margin-top: 45px;
+}
+
+ul {
+  list-style-type: none;
+  list-style-position: inside;
+  text-align: center;
+  margin-left: -35px;
+}
+
+img {
+  border-radius: 50%;
+}
